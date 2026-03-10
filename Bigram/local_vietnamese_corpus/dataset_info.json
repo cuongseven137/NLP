@@ -1,0 +1,74 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "vietnamese-book-corpus",
+  "dataset_size": 3716689262,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/tmnam20/Vietnamese-Book-Corpus@3dc42886bdb38338e6cc03b5093c28b5b5694d0b/data/train-00000-of-00008-434a3967f6c4c0f4.parquet": {
+      "num_bytes": 647412203,
+      "checksum": null
+    },
+    "hf://datasets/tmnam20/Vietnamese-Book-Corpus@3dc42886bdb38338e6cc03b5093c28b5b5694d0b/data/train-00001-of-00008-6fed45ff9717b1da.parquet": {
+      "num_bytes": 302297086,
+      "checksum": null
+    },
+    "hf://datasets/tmnam20/Vietnamese-Book-Corpus@3dc42886bdb38338e6cc03b5093c28b5b5694d0b/data/train-00002-of-00008-14351aa8b7f792d4.parquet": {
+      "num_bytes": 344545740,
+      "checksum": null
+    },
+    "hf://datasets/tmnam20/Vietnamese-Book-Corpus@3dc42886bdb38338e6cc03b5093c28b5b5694d0b/data/train-00003-of-00008-fdb56c534d52ac56.parquet": {
+      "num_bytes": 126942990,
+      "checksum": null
+    },
+    "hf://datasets/tmnam20/Vietnamese-Book-Corpus@3dc42886bdb38338e6cc03b5093c28b5b5694d0b/data/train-00004-of-00008-be47438765872609.parquet": {
+      "num_bytes": 115941664,
+      "checksum": null
+    },
+    "hf://datasets/tmnam20/Vietnamese-Book-Corpus@3dc42886bdb38338e6cc03b5093c28b5b5694d0b/data/train-00005-of-00008-a357bbaf12eaeec8.parquet": {
+      "num_bytes": 122660110,
+      "checksum": null
+    },
+    "hf://datasets/tmnam20/Vietnamese-Book-Corpus@3dc42886bdb38338e6cc03b5093c28b5b5694d0b/data/train-00006-of-00008-f4e317464972c061.parquet": {
+      "num_bytes": 129947616,
+      "checksum": null
+    },
+    "hf://datasets/tmnam20/Vietnamese-Book-Corpus@3dc42886bdb38338e6cc03b5093c28b5b5694d0b/data/train-00007-of-00008-399c5b14967345df.parquet": {
+      "num_bytes": 133704504,
+      "checksum": null
+    }
+  },
+  "download_size": 1923451913,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 5640141175,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 3716689262,
+      "num_examples": 16407,
+      "shard_lengths": [
+        1000,
+        2051,
+        2051,
+        3051,
+        5153,
+        3101
+      ],
+      "dataset_name": "vietnamese-book-corpus"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
