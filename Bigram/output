@@ -1,0 +1,31 @@
+(venv) $ python bigram.py
+Đang kết nối với dataset cục bộ...
+Đang chọn ngẫu nhiên 500 văn bản...
+Bắt đầu huấn luyện dần dần trên 500 văn bản...
+Đang xử lý văn bản thứ 500/500...
+
+Chi tiết tính Log xác suất cho câu: 'hôm nay trời đẹp lắm'
+P(hôm | <s>) = 0.001660 -> Log = -6.4008
+P(nay | hôm) = 0.025795 -> Log = -3.6576
+P(trời | nay) = 0.000307 -> Log = -8.0881
+P(đẹp | trời) = 0.000196 -> Log = -8.5355
+P(lắm | đẹp) = 0.001545 -> Log = -6.4729
+P(</s> | lắm) = 0.039559 -> Log = -3.2300
+-> xác suất = 1.5786e-16
+
+--- Sinh 5 câu ngẫu nhiên (sử dụng Top-3 Sampling) ---
+
+Câu 1: nhưng tôi không thể làm việc làm việc làm gì
+ -> Xác suất: 1.1736e-18
+
+Câu 2: nhưng anh không
+ -> Xác suất: 1.1252e-07
+
+Câu 3: nhưng không có một người ta
+ -> Xác suất: 2.9692e-11
+
+Câu 4: anh không có lẽ nào
+ -> Xác suất: 3.9022e-11
+
+Câu 5: nhưng không có một cái gì
+ -> Xác suất: 4.7587e-11
